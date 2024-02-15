@@ -43,8 +43,8 @@ AOS.init({
 var confi=document.querySelector('.mixcount');
 var mixer=mixitup(confi);
 // counter
-$("#counter").countMe(40,64);
-$("#counterd").countMe(30,34);
-$("#counterh").countMe(40,24);
+$("#counter").countMe(10,0);
+$("#counterd").countMe(20,0);
+$("#counterh").countMe(15,0);
 $('a').smoothScroll();
 $('.backtotop').smoothScroll({offset: 100});
